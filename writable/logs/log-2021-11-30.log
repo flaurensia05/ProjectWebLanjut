@@ -1,0 +1,577 @@
+CRITICAL - 2021-11-30 04:50:18 --> Call to a member function insert() on null
+#0 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->store()
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#5 {main}
+CRITICAL - 2021-11-30 05:35:11 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 05:39:00 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratkeluar\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratkeluar/ind...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratKeluarController.php(14): view('suratkeluar/ind...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratKeluarController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratKeluarController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 05:39:20 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 05:40:20 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 06:01:57 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 06:02:17 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratkeluar\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratkeluar/ind...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratKeluarController.php(14): view('suratkeluar/ind...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratKeluarController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratKeluarController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 06:05:26 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 06:16:25 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 06:20:00 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+CRITICAL - 2021-11-30 07:56:23 --> Undefined array key "dok"
+#0 C:\xamppp\htdocs\websurat\app\Views\suratmasuk\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xamppp\\htdoc...', 55)
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(14): view('suratmasuk/inde...', Array)
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#10 {main}
+ERROR - 2021-11-30 08:22:44 --> Unknown column 'dok' in 'field list'
+CRITICAL - 2021-11-30 08:22:44 --> Unknown column 'dok' in 'field list'
+#0 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `su...')
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xamppp\htdocs\websurat\app\Controllers\AdminSuratMasukController.php(80): CodeIgniter\Model->insert(Array)
+#8 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->store()
+#9 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#10 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#13 {main}
+CRITICAL - 2021-11-30 08:49:09 --> syntax error, unexpected token "<<"
+#0 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamppp\\htdoc...')
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#8 {main}
+CRITICAL - 2021-11-30 08:49:11 --> syntax error, unexpected token "<<"
+#0 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamppp\\htdoc...')
+#1 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppp\htdocs\websurat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppp\htdocs\websurat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xamppp\\htdoc...')
+#8 {main}
+ERROR - 2021-11-30 09:36:59 --> Table 'user' already exists
+ERROR - 2021-11-30 09:38:05 --> Table 'user' already exists
+ERROR - 2021-11-30 09:38:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+ERROR - 2021-11-30 09:39:09 --> Table 'user' already exists
+ERROR - 2021-11-30 09:39:51 --> Table 'user' already exists
+ERROR - 2021-11-30 09:41:36 --> Table '`mydatabase`.`migrations`' already exists
+ERROR - 2021-11-30 09:49:35 --> Table 'user' already exists
+CRITICAL - 2021-11-30 10:13:30 --> Invalid file: admin_form.php
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_form.php')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin_form', Array, true)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\login.php(9): view('admin_form')
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->index()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#8 {main}
+CRITICAL - 2021-11-30 10:14:16 --> Undefined variable: username
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\SDP\\Do...', 19, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\login->login_action()
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#6 {main}
+CRITICAL - 2021-11-30 10:30:58 --> Cannot declare class App\Controllers\AdminSuratMasukController, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 10:31:30 --> Call to a member function insert() on null
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->store()
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 10:32:40 --> Call to a member function insert() on null
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->store()
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 10:35:53 --> Call to a member function insert() on null
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->store()
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 10:37:46 --> Call to a member function insert() on null
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->store()
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 10:49:20 --> Undefined index: nomor
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\home\suratmasukuser\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 84, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home/suratmasu...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\UserSuratMasukController.php(17): view('/home/suratmasu...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 10:50:46 --> Undefined index: nama
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\home\suratmasukuser\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 84, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home/suratmasu...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\UserSuratMasukController.php(17): view('/home/suratmasu...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 10:51:46 --> Trying to access array offset on value of type int
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\home\suratmasukuser\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\SDP\\Do...', 84, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home/suratmasu...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\UserSuratMasukController.php(17): view('/home/suratmasu...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 10:53:29 --> Undefined index: nomor
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\home\suratmasukuser\index.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 84, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home/suratmasu...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\UserSuratMasukController.php(17): view('/home/suratmasu...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UserSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 11:43:19 --> Undefined variable: SuratMasukUserModel
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\SDP\\Do...', 19, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminController->index()
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#6 {main}
+CRITICAL - 2021-11-30 11:43:46 --> Undefined variable: count2
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\view_admin.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\SDP\\Do...', 80, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('view_admin', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminController.php(22): view('view_admin', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 12:14:03 --> Undefined index: id
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index_nonvalid.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 57, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(31): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index_nonvalid()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 12:17:08 --> Undefined index: id
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index_nonvalid.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 57, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(31): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index_nonvalid()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 12:17:10 --> Undefined index: id
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index_nonvalid.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 57, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(31): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index_nonvalid()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 12:27:24 --> There is no data to insert.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(177): CodeIgniter\Model->insert(Array)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#8 {main}
+CRITICAL - 2021-11-30 12:35:23 --> There is no data to insert.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(177): CodeIgniter\Model->insert(Array)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#8 {main}
+CRITICAL - 2021-11-30 12:35:42 --> There is no data to insert.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(177): CodeIgniter\Model->insert(Array)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('2')
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#8 {main}
+CRITICAL - 2021-11-30 12:35:57 --> There is no data to insert.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(177): CodeIgniter\Model->insert(Array)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#8 {main}
+CRITICAL - 2021-11-30 12:38:26 --> Use of undefined constant data1 - assumed 'data1' (this will throw an Error in a future version of PHP)
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Users\\SDP\\Do...', 176, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#6 {main}
+CRITICAL - 2021-11-30 12:48:01 --> Object of class App\Models\SuratMasukUserModel could not be converted to string
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 12:52:43 --> Undefined property: App\Controllers\AdminSuratMasukController::$data1
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\SDP\\Do...', 176, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#6 {main}
+CRITICAL - 2021-11-30 12:53:40 --> There is no data to insert.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(177): CodeIgniter\Model->insert(Array)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#8 {main}
+CRITICAL - 2021-11-30 12:53:47 --> Undefined property: App\Controllers\AdminSuratMasukController::$data1
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\SDP\\Do...', 176, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#6 {main}
+CRITICAL - 2021-11-30 12:59:38 --> Object of class App\Models\SuratMasukUserModel could not be converted to string
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 13:05:28 --> Illegal string offset 'nomor'
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\SDP\\Do...', 51, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(18): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 13:06:06 --> Invalid argument supplied for foreach()
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\SDP\\Do...', 46, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(18): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 13:06:22 --> Object of class App\Models\SuratMasukUserModel could not be converted to string
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 13:06:32 --> Object of class App\Models\SuratMasukUserModel could not be converted to string
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->validasi_data('1')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 13:17:38 --> Undefined index: password
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index_nonvalid.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 49, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(31): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index_nonvalid()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 13:17:59 --> Undefined index: password
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index_nonvalid.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 49, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(31): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index_nonvalid()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 13:18:06 --> Undefined index: password
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index_nonvalid.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\SDP\\Do...', 49, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(31): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index_nonvalid()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
+CRITICAL - 2021-11-30 13:25:59 -->  is not a valid rule.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('dok', 'Berkas', NULL, Array, Array)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(55): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->store()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#9 {main}
+CRITICAL - 2021-11-30 13:26:16 --> optional is not a valid rule.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('optional')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('dok', 'Berkas', NULL, Array, Array)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(55): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->store()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#9 {main}
+CRITICAL - 2021-11-30 13:27:13 --> Optional is not a valid rule.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Optional')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('dok', 'Berkas', NULL, Array, Array)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(55): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->store()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#9 {main}
+CRITICAL - 2021-11-30 13:27:48 --> Berkas is not a valid rule.
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Berkas')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('dok', 'Berkas', NULL, Array, Array)
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(55): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->store()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#9 {main}
+CRITICAL - 2021-11-30 18:36:20 --> Undefined variable: totalTime
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\SDP\\Do...', 41, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 18:36:22 --> Undefined variable: totalTime
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\SDP\\Do...', 41, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-30 18:43:14 --> Object of class App\Models\SuratMasukModel could not be converted to string
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->delete('1')
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#5 {main}
+CRITICAL - 2021-11-30 18:44:41 --> Undefined property: App\Controllers\AdminSuratMasukController::$SuratMasukModel
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\SDP\\Do...', 122, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->delete('1')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#6 {main}
+CRITICAL - 2021-11-30 18:51:32 --> Undefined variable: suratmasukuser
+#0 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Views\suratmasuk\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\SDP\\Do...', 47, Array)
+#1 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SDP\\Do...')
+#2 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('suratmasuk/inde...', Array, true)
+#4 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\app\Controllers\AdminSuratMasukController.php(18): view('suratmasuk/inde...', Array)
+#5 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AdminSuratMasukController->index()
+#6 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSuratMasukController))
+#7 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SDP\Documents\GitHub\ProjectWebLanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SDP\\Do...')
+#10 {main}
